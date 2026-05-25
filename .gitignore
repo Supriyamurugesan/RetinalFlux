@@ -1,0 +1,15 @@
+# Block entire datasets and raw data
+data/
+backend/data/
+
+# Block heavy model folders/weights
+models/
+*.safetensors
+*.bin
+*.pth
+*.pkl
+
+# Block giant system folders
+frontend/node_modules/
+backend/node_modules/
+venv/
